@@ -130,8 +130,15 @@ h2 {
     flex-direction: column;
   }
 
+  nav menu li a {
+    border-left: 8px solid #efece5;
+    border-bottom: 0;
+
+  }
+
   nav menu li a:hover {
     border-left: 8px solid #55bea9;
     border-bottom: 0;
+    padding: 16px;
   }
 }
