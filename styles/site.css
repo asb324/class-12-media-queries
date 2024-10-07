@@ -123,12 +123,15 @@ h2 {
 
 @media (max-width: 700px) {
   nav menu {
-    display: flex;
     flex-direction: column;
   }
 
   .left-image {
-    display: flex;
     flex-direction: column;
+  }
+
+  nav menu li a:hover {
+    border-left: 8px solid #55bea9;
+    border-bottom: 0;
   }
 }
